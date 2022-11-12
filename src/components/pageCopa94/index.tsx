@@ -1,4 +1,6 @@
+import { AiOutlineArrowUp } from "react-icons/ai";
 import { Container } from "../pageCopa58/style";
+import image from '../../image/selecao-copa-94.jpg'
 
 export function PageCopa94(){
     return(
@@ -7,10 +9,7 @@ export function PageCopa94(){
             <div className="historia">
                 <span>Historia Marcante: </span>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Impedit est eos voluptatum facere quam doloribus nobis
-                      quo aliquid? Fugit obcaecati neque nesciunt ut non architecto
-                       amet ab laborum inventore veritatis.
+                A Copa de 1994 ficou muito marcada pelo tetracampeonato da seleção brasileira, então comandada por Carlos Alberto Parreira. O Brasil, com uma campanha quase perfeita, chegou à final e venceu a Itália nos pênaltis para ficar com o título do Mundial 24 anos após a última conquista.
                 </p>
             </div>
             <div className="resultados">
@@ -38,6 +37,8 @@ export function PageCopa94(){
                     <li>Brasil 0(3) x 0(2) Itália</li>
                 </ul>
             </div>  
+            <img src={image} alt="" />
+            <a href="#Second"><AiOutlineArrowUp className="icon"/></a>
         </Container>
     )
 }

@@ -41,7 +41,7 @@ div.area-card{
         z-index:1 ;
         a{
             text-decoration:none ;
-            color: #FFF ;
+            color: #000 ;
         }
         h1{
             font-size:50px ;

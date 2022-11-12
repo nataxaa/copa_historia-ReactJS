@@ -1,4 +1,6 @@
+import { AiOutlineArrowUp } from "react-icons/ai";
 import { Container } from "../pageCopa58/style";
+import image from '../../image/selecao-copa-62.jpeg'
 
 export function PageCopa62(){
     return(
@@ -7,10 +9,12 @@ export function PageCopa62(){
             <div className="historia">
                 <span>Historia Marcante: </span>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Impedit est eos voluptatum facere quam doloribus nobis
-                      quo aliquid? Fugit obcaecati neque nesciunt ut non architecto
-                       amet ab laborum inventore veritatis.
+                A edição de 1962 da Copa do Mundo marcou a sétima participação
+                da Seleção Brasileira de Futebol nessa competição. Era o único
+                país a participar de todas as edições do torneio da FIFA, fato
+                que persistirá pelo menos a edição realizada no Catar em 2022.
+                Foi a primeira em que o Brasil defendia o título de campeão, após
+                a conquista do Mundial da Suécia, em 1958.
                 </p>
             </div>
             <div className="resultados">
@@ -38,7 +42,8 @@ export function PageCopa62(){
                     <li>Brasil 3 x 1 Tchecoslováquia</li>
                 </ul>
             </div>
-
+            <img src={image} alt="" />
+            <a href="#Second"><AiOutlineArrowUp className="icon"/></a>
             
 
         </Container>

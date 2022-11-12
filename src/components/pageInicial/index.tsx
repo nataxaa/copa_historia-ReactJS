@@ -7,7 +7,7 @@ export function PageInicial(){
     return(
         <Container>
             <img className="imagem-background-neymar" src={neymar} />
-            <img className="imagem-background-pele" src={pele} />
+            
             <div>
                 <h1>NOSSA HISTORIA NA COPA.</h1>
                 <p>

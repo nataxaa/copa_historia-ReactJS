@@ -4,10 +4,10 @@ import {createGlobalStyle} from 'styled-components'
 export const GlobalStyled = createGlobalStyle`
 
   :root{
-    --background-color: #0A0A0A ;
+    --background-color: #F9F9ED ;
     --green-color: #11E70D;
-    --color-text: #FFF;
-    --color-subtitle: #EEF0FB;
+    --color-text: #000;
+    --color-subtitle: #00272B;
   }
 
   html{

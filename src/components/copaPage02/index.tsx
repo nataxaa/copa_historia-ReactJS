@@ -1,4 +1,6 @@
+import { AiOutlineArrowUp } from "react-icons/ai";
 import { Container } from "../pageCopa58/style";
+import image from '../../image/selecao-copa-02.jpg'
 
 export function PageCopa02(){
     return(
@@ -7,10 +9,7 @@ export function PageCopa02(){
             <div className="historia">
                 <span>Historia Marcante: </span>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Impedit est eos voluptatum facere quam doloribus nobis
-                      quo aliquid? Fugit obcaecati neque nesciunt ut non architecto
-                       amet ab laborum inventore veritatis.
+                A Copa do Mundo de 2002, disputada no Japão e na Coreia do Sul, é muito especial para o torcedor brasileiro, que viu a seleção comandada por Luiz Felipe Scolari se tornar a primeira - e até agora única - pentacampeã mundial. Ronaldo, Ronaldinho Gaúcho, Rivaldo e companhia marcaram seus nomes na história do futebol em uma campanha histórica.
                 </p>
             </div>
             <div className="resultados">
@@ -38,7 +37,8 @@ export function PageCopa02(){
                     <li>Brasil 2 x 0 Alemanha</li>
                 </ul>
             </div>
-
+            <img src={image} alt="" />
+            <a href="#Second"><AiOutlineArrowUp className="icon"/></a>
             
 
         </Container>

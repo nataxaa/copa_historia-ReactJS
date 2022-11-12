@@ -1,5 +1,6 @@
 import { Container } from "./style";
-
+import {AiOutlineArrowUp} from 'react-icons/ai'
+import image from '../../image/imagem-selecao-58.jpg'
 
 export function PageCopa58(){
     return(
@@ -8,14 +9,16 @@ export function PageCopa58(){
             <div className="historia">
                 <span>Historia Marcante: </span>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Impedit est eos voluptatum facere quam doloribus nobis
-                      quo aliquid? Fugit obcaecati neque nesciunt ut non architecto
-                       amet ab laborum inventore veritatis.
+                No dia 29 de junho de 1958, na Suécia, o Brasil conquistou
+                a Copa do Mundo de futebol pela primeira vez. No elenco campeão,
+                De Sordi, Dino Sani e Mauro, jogadores; Vicente Feola,
+                técnico; João Carvalhaes, psicólogo; e Paulo Machado de Carvalho,
+                chefe de delegação, representaram o Tricolor na conquista. 
                 </p>
+                
             </div>
             <div className="resultados">
-                <h2>Resultados</h2>
+                <h2>Resultados:</h2>
                 <span>Fase de grupos:</span>
                 <ul>
                     <li>Brasil 3 x 0 Áustria</li>
@@ -39,7 +42,8 @@ export function PageCopa58(){
                     <li>Brasil 5 x 2 Suécia</li>
                 </ul>
             </div>
-
+                <img src={image} alt="" />
+            <a href="#Second"><AiOutlineArrowUp className="icon"/></a>
             
 
         </Container>
